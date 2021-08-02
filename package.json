@@ -1,12 +1,12 @@
 {
-  "name": "rn-placeholder",
-  "version": "3.0.3",
+  "name": "react-native-rn-placeholder",
+  "version": "3.0.4",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "homepage": "https://github.com/mfrachet/rn-placeholder",
+  "homepage": "https://github.com/idanlevi1/rn-placeholder",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mfrachet/rn-placeholder"
+    "url": "https://github.com/idanlevi1/rn-placeholder"
   },
   "description": "Display some placeholder stuff before rendering your text or media content in React Native",
   "keywords": [
@@ -15,7 +15,7 @@
     "android",
     "expo"
   ],
-  "author": "Marvin FRACHET <marvin.frachet@gmail.com> (https://github.com/mfrachet)",
+  "author": "Marvin FRACHET <marvin.frachet@gmail.com> (https://github.com/mfrachet) & Idan Levi <idanlevi2@gmail.com> (https://github.com/idanlevi1)",
   "license": "MIT",
   "scripts": {
     "test": "tsc --outDir example/placeholder && yarn --cwd ./example test",

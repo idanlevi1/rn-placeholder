@@ -1,11 +1,11 @@
-[![Build Status](https://travis-ci.org/mfrachet/rn-placeholder.svg?branch=master)](https://travis-ci.org/mfrachet/rn-placeholder)
+[![Build Status](https://travis-ci.org/idanlevi1/rn-placeholder.svg?branch=master)](https://travis-ci.org/idanlevi1/rn-placeholder)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Display some placeholder stuff before rendering your text or media content in React Native. Compatible with [Expo](https://expo.io/) and [react-native-web](https://github.com/necolas/react-native-web).
 
 - [Snack application **with copy to clipboard!**](https://snack.expo.io/@mfrachet/84bb31)
-- [Usage with react-native-web](https://mfrachet.github.io/rn-placeholder)
-- [The N Props syndrome (post)](https://mfrachet.github.io/the-n-props-syndrome): explaining the transition between v2 and v3
+- [Usage with react-native-web](https://idanlevi1.github.io/rn-placeholder)
+- [The N Props syndrome (post)](https://idanlevi1.github.io/the-n-props-syndrome): explaining the transition between v2 and v3
 
 ---
 
@@ -16,7 +16,7 @@ Display some placeholder stuff before rendering your text or media content in Re
 ## Installation
 
 ```javascript
-$ yarn add rn-placeholder
+$ yarn add react-native-rn-placeholder
 ```
 
 ## In your code
@@ -27,7 +27,7 @@ import {
   PlaceholderMedia,
   PlaceholderLine,
   Fade
-} from "rn-placeholder";
+} from "react-native-rn-placeholder";
 
 const App = () => (
   <Placeholder
@@ -56,8 +56,8 @@ _You can modify any call of `yarn` by `npm install`_
 ### To start the mobile app:
 
 ```sh
-$ git clone https://github.com/mfrachet/rn-placeholder
-$ cd rn-placeholder
+$ git clone https://github.com/idanlevi1/rn-placeholder
+$ cd react-native-rn-placeholder
 $ yarn
 $ cd ./example && yarn && yarn start
 ```
@@ -65,13 +65,13 @@ $ cd ./example && yarn && yarn start
 ### To start the web app:
 
 ```sh
-$ git clone https://github.com/mfrachet/rn-placeholder
-$ cd rn-placeholder
+$ git clone https://github.com/idanlevi1/rn-placeholder
+$ cd react-native-rn-placeholder
 $ yarn
 $ cd ./example-web && yarn && yarn start
 ```
 
-The web app is also available in this github pages: https://mfrachet.github.com/rn-placeholder.
+The web app is also available in this github pages: https://idanlevi1.github.com/rn-placeholder.
 
 ## V3 features
 
