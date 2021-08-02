@@ -38,6 +38,7 @@ const App = () => (
     <PlaceholderLine width={80} />
     <PlaceholderLine />
     <PlaceholderLine width={30} />
+    <PlaceholderMedia size={42} isRound={true} color={'yellow'} backgroundStyle={{ backgroundColor: 'green' }} />
   </Placeholder>
 );
 ```
